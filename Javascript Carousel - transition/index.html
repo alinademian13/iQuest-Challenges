@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>JS Image Carousel</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css-reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+    <div class="container-fluid carousel position-relative mx-auto my-5">
+        
+        <a class="carousel-btn position-absolute left-btn hidden" href="#" role="button">
+            &#8249;
+        </a>
+        
+        <div class="carousel-container position-relative">
+            <ul class="carousel-images p-0 m-0 position-relative">
+                <li class="slide current-slide position-absolute">
+                    <img src="img/1.jpg" alt="">
+                </li>
+                <li class="slide rotated position-absolute">
+                    <img src="img/2.jpg" alt="">
+                </li>
+                <li class="slide position-absolute">
+                    <img src="img/3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <a class="carousel-btn position-absolute right-btn" href="#" role="button">
+            &#8250;
+        </a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

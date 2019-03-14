@@ -1,0 +1,56 @@
+.carousel {
+    height: 600px;
+    width: 80%;
+}
+
+.carousel-images {
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    opacity: 0.8;
+    color: rgb(240, 212, 212);
+}
+
+.carousel-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.left-btn {
+    left: 20px;
+    z-index: 1000;
+}
+
+.right-btn {
+    right: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
